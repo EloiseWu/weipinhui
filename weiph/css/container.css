@@ -1,0 +1,263 @@
+.container{
+	height: 3000px;
+}
+.title{
+	width: 1170px;
+	height: 68px;
+	margin: 10px auto;
+}
+.viscidity{
+	width: 78px;
+	height: 420px;
+	margin-left: 20px;
+	border: 1px solid #ccc;
+	float: left;
+	position: sticky;
+	top:30px;
+	border-radius: 3px;
+}
+.viscidity ul{
+	width: 76px;
+}
+.viscidity li{
+	width: 65px;
+	height: 38px;
+	border-bottom: 1px solid #ccc;
+	border-radius: 3px;
+	margin:3px;
+	padding-left: 7px;
+	line-height: 38px;
+	font-size: 13px;
+}
+.viscidity li:first-child{
+	background-color: #f10180;
+}
+.viscidity li:last-child{
+	border-bottom: none;
+}
+.viscidity a:hover>span{
+	color: #d7237e;
+}
+.viscidity span{
+	margin-left: 3px;
+	color: #666;
+}
+.title-next{
+	height: 200px;
+}
+.title-next li{
+	width: 320px;
+	height: 198px;
+	margin-top: 10px;
+	margin-right: 10px;
+	float: left;
+}
+.title-next li:last-child::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.jx{
+	height: 660px;
+	
+}
+.jx-sp{
+	width: 450px;
+	height: 200px;
+}
+.jx-sp1{
+	width: 121px;
+	height: 153px;
+	float: left;
+	margin-left: 20px;
+	background: url(../photo/mask1.jpg) 0 0 no-repeat;
+	background-size: 99.9% 99.9%;
+}
+.jx-sp2{
+	width: 121px;
+	height: 153px;
+	margin-left: 20px;
+	float: left;
+	background: url(../photo/mask2.jpg) 0 0 no-repeat;
+	background-size: 99.9% 99.9%;
+}
+.jx-sp3{
+	width: 121px;
+	height: 153px;
+	margin-left: 20px;
+	float: left;
+	background: url(../photo/mask3.jpg) 0 0 no-repeat;
+	background-size: 99.9% 99.9%;
+}
+.jx1{
+	width: 490px;
+	height: 300px;
+	margin-top: 10px;
+	margin-right: 10px;
+	position: relative;
+	float: left;
+	transition: all 0.5s linear;
+}
+.jx1-bj:hover img{
+	filter: blur(3px);
+}
+.jx1-bj:hover .jx1-bq{
+	opacity: 1;
+}
+.jx1-bq{
+	width: 450px;
+	height: 270px;
+	background-color: #fff;
+	opacity: 0;
+	position: absolute;
+	top:20px;
+	left:20px;
+	transition: all 0.5s linear;
+}
+.jx2-bj:hover img{
+	filter: blur(3px);
+}
+.jx2-bj:hover .jx2-bq{
+	opacity: 1;
+}
+.jx2-bq{
+	width: 450px;
+	height: 270px;
+	background-color: #fff;
+	opacity: 0;
+	position: absolute;
+	top:20px;
+	left:20px;
+	transition: all 0.5s linear;
+}
+.jx3-bj:hover img{
+	filter: blur(3px);
+}
+.jx3-bj:hover .jx3-bq{
+	opacity: 1;
+}
+.jx3-bq{
+	width: 450px;
+	height: 270px;
+	background-color: #fff;
+	opacity: 0;
+	position: absolute;
+	top:20px;
+	left:20px;
+	transition: all 0.5s linear;
+}
+.jx4-bj:hover img{
+	filter: blur(3px);
+}
+.jx4-bj:hover .jx4-bq{
+	opacity: 1;
+}
+.jx4-bq{
+	width: 450px;
+	height: 270px;
+	background-color: #fff;
+	opacity: 0;
+	position: absolute;
+	top:20px;
+	left:20px;
+	transition: all 0.5s linear;
+}
+
+.nv-title{
+	height: 43px;
+	border-bottom: 1px solid #000;
+	line-height: 43px;
+}
+.nv-title img{
+	float: left;
+}
+.nv-title a{
+	float: right;
+}
+.nv-title a::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.nv li{
+	width: 490px;
+	height: 300px;
+	margin-top: 10px;
+	margin-right: 10px;
+	float: left;
+	transition: all 0.5s linear;
+}
+.nv li:hover{
+	opacity: 0.6;
+}
+.nv li:last-child::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.nv li:nth-child(1){
+	background: url(../photo/nv2.jpg) top center no-repeat;
+}
+.nv li:nth-child(2){
+	background: url(../photo/nv3.jpg) top center no-repeat;
+}
+.nv li:nth-child(3){
+	background: url(../photo/nv4.jpg) top center no-repeat;
+}
+.nv li:nth-child(4){
+	background: url(../photo/nv5.jpg) top center no-repeat;
+}
+.nv::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.xb-title{
+	height: 43px;
+	border-bottom: 1px solid #000;
+	line-height: 43px;
+}
+.xb-title img{
+	float: left;
+}
+.xb-title a{
+	float: right;
+}
+.xb-title a::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.xb li{
+	width: 490px;
+	height: 300px;
+	margin-top: 10px;
+	margin-right: 10px;
+	float: left;
+	transition: all 0.5s linear;
+}
+.xb li:hover{
+	opacity: 0.6;
+}
+.xb li:last-child::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.xb li:nth-child(1){
+	background: url(../photo/xie1.jpg) top center no-repeat;
+}
+.xb li:nth-child(2){
+	background: url(../photo/xie2.jpg) top center no-repeat;
+}
+.xb li:nth-child(3){
+	background: url(../photo/xie3.jpg) top center no-repeat;
+}
+.xb li:nth-child(4){
+	background: url(../photo/xie4.jpg) top center no-repeat;
+}
+.xb::after{
+	content: "";
+	display: block;
+	clear: both;
+}

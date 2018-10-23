@@ -1,0 +1,25 @@
+.wrap{
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+}
+.header{
+	height: 100px;
+}
+.header::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.header-left{
+	width: 151px;
+	height: 100px;
+	background: url(../photo/top1.png);
+	float: left;
+}
+.header-right{
+	width: 336px;
+	height: 100px;
+	background: url(../photo/top2.png);
+	float: right;
+}

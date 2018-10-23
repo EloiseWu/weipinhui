@@ -1,0 +1,9 @@
+.footer{
+	height: 78px;
+}
+p{
+	text-align: center;
+	line-height: 78px;
+	font-size: 13px;
+	color:#666;
+}

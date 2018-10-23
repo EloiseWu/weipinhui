@@ -1,0 +1,54 @@
+.footer{
+	height: 477px;
+	border-top: 1px solid #ccc;
+}
+.one img{
+	margin-left: 86px;
+	margin-top: 40px;
+}
+.two{
+	height: 146px;
+	margin-top: 30px;
+}
+.two >ul{
+	width: 140px;
+	height: 145px;
+	float: left;
+	margin-right: 5px;
+	padding-left: 20px;
+	border-right: 1px solid #ccc;
+}
+.two a{
+	color: grey;
+}
+.two a:hover{
+	color: #d7237e;
+}
+.three{
+	margin-left: 25px;
+	margin-top: 20px;
+}
+.three p{
+	height: 30px;
+	width: 960px;
+	line-height: 30px;
+	background-color: #d7237e;
+	text-align: center;
+	color: #fff;
+}
+.three a{
+	color: #fff;
+}
+.three a:hover{
+	color: grey;
+}
+.four{
+	color: grey;
+	text-align: center;
+}
+.four a{
+	color: #666;
+}
+.four a:hover{
+	color: #d7237e;
+}

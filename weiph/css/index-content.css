@@ -1,0 +1,55 @@
+.index-content{
+			height: 400px;
+		}
+		.wrap{
+			width: 1000px;
+			height: 100%;
+			margin: 0 auto;
+		}
+        .wrap1{
+			height: 400px;
+			width: 1349px;
+			margin: 0 auto;
+			background-image: url("../photo/beijing.png");
+		}
+		.ad{
+			padding-top: 42px;
+			width: 976px;
+			height: 340px;
+			margin: 0 auto;
+		}
+		/*.ad-nav{
+			width: 976px;
+			height: 40px;
+			background-color: #fff;
+		}
+		.ad-nav a{
+			font-size: 12px;
+			float: left;
+			width: 244px;
+			text-align: center;
+			border-bottom: 3px solid red;
+		}*/
+		.ad-play{
+			width: 976px;
+			height: 340px;
+			background-color: pink;
+		    animation: ad 20s both infinite normal linear;
+		}
+		@keyframes ad{
+			0%{
+				background: url(../photo/shouye01.jpg) 0 0 no-repeat;
+			}
+			25%{
+				background: url(../photo/shouye02.jpg) 0 0 no-repeat;
+			}
+			50%{
+				background: url(../photo/shouye03.jpg) 0 0 no-repeat;
+			}
+			75%{
+				background: url(../photo/shouye04.jpg) 0 0 no-repeat;
+			}
+			100%{
+				background: url(../photo/shouye01.jpg) 0 0 no-repeat;
+			}
+		

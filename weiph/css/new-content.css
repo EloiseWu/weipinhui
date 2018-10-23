@@ -1,0 +1,18 @@
+.new-content{
+	height: 489px;
+}
+.new-up{
+	height: 119px;
+	margin-top: 20px;
+}
+.new-down{
+	height: 360px;
+	margin-top: 20px;
+}
+.new-down a{
+	width: 496px;
+	height: 172px;
+	margin-right: 4px;
+	margin-bottom:4px; 
+	float: left;
+}
